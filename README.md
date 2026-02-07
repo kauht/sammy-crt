@@ -41,8 +41,10 @@ Implementing these syscall wrappers in C was soooo easy, as long as you have the
 NEXT UP:
 - more syscall wrappers(read, fork, execve, etc. check [this table](https://www.chromium.org/chromium-os/developer-library/reference/linux-constants/syscalls/) for all linux syscalls)
 - implementing puts(idk how hard this will be, I think it just calls write)
-- memory shit(strlen, memcpy, memset)
-- then a printf implementation
-- MALLOC!!! (/calloc/realloc/free)
-
+- helpers(puts, printf, snprintf,strlen, memcpy, memset, strcpy, strncpy, strcmp, strncmp, strchr, atoi, itoa)
+- error handling(abort, assert)
+- memory shit(malloc, free, realloc)
+owoowahhh
+- file IO(fopen, fread, fwrite, fclose)
+- networking(socket, bind, connect)
 - EVENTUALLY port this to adan, and my lang
